@@ -1,3 +1,7 @@
+## Extra
+PRODUCT_PACKAGES += \
+    LatinIMEGooglePrebuilt
+
 # GMS
 ifeq ($(WITH_GMS), true)
 $(call inherit-product, vendor/gms/common/common-vendor.mk)
@@ -8,3 +12,4 @@ endif
 
 # Signing
 PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/certs/releasekey
+
