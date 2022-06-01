@@ -13,7 +13,8 @@ PRODUCT_PACKAGES += \
     FontLinotteSourceOverlay \
     FontManropeOverlay \
     FontOnePlusSansOverlay \
-    FontOneplusSlateSourceOverlay
+    FontOneplusSlateSourceOverlay \
+    FontOppoSansOverlay
 
 # GMS
 ifeq ($(WITH_GMS), true)
